@@ -31,7 +31,7 @@ Then make a file called `config.json` and save that. Then, in the command line, 
 No, you didn't download a virus. You downloaded a library that can be used by a Javascript program to connect with Discord. To briefly explain how this works, think of your Discord client. You've got a neat little interface for interacting with your Discord servers, but it's all just window dressing that makes it human-usable. Whenever you send a message, you're actually sending a request to Discord's servers that basically translates to "hey this user wants to send a message and the content is whatever". This is a very basic explanation, and if you are interested I encourage you to read up on the API Documentation found in the Discord Developers portal, but it serves to explain how your bot will work. Bot account and user accounts are basically the same (except for a few minor quirks that don't matter too much), so when a bot sends a message it makes a request to Discord's servers just like a user would, except without a graphical user interface, or GUI. In this case, Eris is what we use to make such requests.
 
 # Ok but HOW DO I MAKE BOT WORK PUNY HUMAN
-Slow down there, rambo. It won't be too long, but have a bit of patience, please. After installing Eris in your directory, post the following into your `app.js` file:
+Slow down there, rambo. It won't be too long, but have a bit of patience, please. After installing Eris in your directory, paste the following into your `app.js` file:
 ```javascript
 const config = require("config.json");
 var bot = new Eris(config.token);
@@ -45,7 +45,7 @@ bot.on("messageCreate", (msg) => {
 });
 bot.connect();
 ```
-and then post the following into your `config.json` file:
+and then paste the following into your `config.json` file:
 ```json
 {
     "token": " "
