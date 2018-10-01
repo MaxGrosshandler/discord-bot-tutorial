@@ -1,11 +1,8 @@
 # discord-bot-tutorial
-For discord bot learning things
-
-Ok, so, you want to make a discord bot, do ya?
-
-Well it'll take a bit of hard work dontcha know?
+So you want to make a Discord Bot, eh?
 
 # Prerequisites 
+(Note: other languages besides Javascript coming soon)
 * Know at least a little bit of Javascript. You don't need to know the entire language back to front, but you do need to know a bit of it. A good checklist to follow is below:
     * Know whether or not Javascript is dynamically or statically typed
     * Know that Java and Javascript are actually unrelated besides the name
