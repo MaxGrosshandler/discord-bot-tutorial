@@ -1,5 +1,5 @@
 # discord-bot-tutorial
-So you want to make a Discord Bot, eh?
+So you want to make a Discord Bot in Javascript?
 
 # Prerequisites 
 (Note: other languages besides Javascript coming soon)
@@ -66,6 +66,7 @@ One more time for good measure.
 DO NOT LEAK YOUR TOKEN
 
 You might be asking "What does leaking my token mean?". Lemme explain. See, your bot token is what Discord uses to say "oh, the thing running this code is the bot account RandomBot#4456". This means that if someone gets your token they can hijack your bot and do whatever they want with it, which is VERY BAD.
+Your token looks like this: `: MjM4NDk0NzU2NTIxMzc3Nzky.CunGFQ.wUILz7z6HoJzVeq6pyHPmVgQgV4` as an example
 Tips on how to not leak your token:
 * If you're using Github and you are new to it, MAKE SURE YOUR TOKEN NEVER ENDS UP ON THE REPO (except if it is a private repo but even then) Like, if it ends up there, delete the file manually or reset your token immediately just to make sure you stay secure. I recommend not using Github until you are EXTREMELY well-versed in how it works.
 * Never ever ever ever EVER give your token to anyone else except if you trust them to the point where you would be fine with them literally having your identity for a day and trusting them not to ruin your reputation for fun.
