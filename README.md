@@ -34,7 +34,8 @@ No, you didn't download a virus. You downloaded a library that can be used by a 
 # Ok but HOW DO I MAKE BOT WORK PUNY HUMAN
 Slow down there, rambo. It won't be too long, but have a bit of patience, please. After installing Eris in your directory, post the following into your `app.js` file:
 ```javascript
-var bot = new Eris("BOT_TOKEN");
+const config = require("config.json");
+var bot = new Eris(config.token);
 bot.on("ready", () => {
     console.log("Ready!");
 });
@@ -45,5 +46,24 @@ bot.on("messageCreate", (msg) => {
 });
 bot.connect();
 ```
+and then post the following into your `config.json` file:
+```json
+{
+    "token": " "
+}
+```
+You might be wondering why the `token` field is empty in our config file. Lemme explain.
+# THE GREATEST SIN IMAGINABLE
+This next bit is EXTREMELY important. Here it goes:
+DO NOT LEAK YOUR TOKEN
+Let me just make sure you got that.
+DO NOT LEAK YOUR TOKEN
+One more time for good measure.
+DO NOT LEAK YOUR TOKEN
+You might be asking "What does leaking my token mean?". Lemme explain. See, your bot token is what Discord uses to say "oh, the thing running this code is the bot account RandomBot#4456". This means that if someone gets your token they can hijack your bot and do whatever they want with it, which is VERY BAD.
+Tips on how to not leak your token:
+* If you're using Github and you are new to it, MAKE SURE YOUR TOKEN NEVER ENDS UP ON THE REPO (except if it is a private repo but even then) Like, if it ends up there, delete the file manually or reset your token immediately just to make sure you stay secure. I recommend not using Github until you are EXTREMELY well-versed in how it works.
+* Never ever ever ever EVER give your token to anyone else except if you trust them to the point where you would be fine with them literally having your identity for a day and trusting them not to ruin your reputation for fun.
+Alright, so after that shebang, it's time to DIVE IN!
 
 
