@@ -1,6 +1,8 @@
 # discord-bot-tutorial
 For discord bot learning things
+
 Ok, so, you want to make a discord bot, do ya?
+
 Well it'll take a bit of hard work dontcha know?
 
 # Prerequisites 
