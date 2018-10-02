@@ -94,6 +94,7 @@ Well, I have some bad news for you, then. This is the end of the tutorial! Yep, 
 3. Join servers like [Discord API](discord.gg/discord-api) and [Discord Bots]( https://discord.gg/0cDvIgU2voWn4BaD) to ask questions after you've learned some things
 4. Yell at StackOverflow a lot
 5. Look at existing bots written in Eris to springboard from (make sure to give credit where credit is due)
+6. Bonus resource: I recently started work on my own version of the Eris docs with a search that actually works that you can find [here](http://erisdocs.cfapps.io/)
 
 # End of the line, pal
 Well, that brings us to a close. Again, refer to the list above to learn more and more about how to develop a bot using Eris and Node.js and in a decent amount of time you'll be in the thick of it and you'll feel like a demigod to be quite honest. Once you start figuring out how to do things it really is an experience that can't be replicated anywhere else. Good luck! 
