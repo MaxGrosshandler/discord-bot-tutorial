@@ -1,6 +1,10 @@
 const Eris = require("eris")
 const config = require("./config.json");
-var bot = new Eris(config.token);
+var bot = new Eris.Client(
+    config.token, {
+        restMode: true
+    }
+);
 bot.on("ready", () => {
     console.log("Ready!");
 });
