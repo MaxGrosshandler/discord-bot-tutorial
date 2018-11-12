@@ -33,7 +33,7 @@ No, you didn't download a virus. You downloaded a library that can be used by a 
 # Ok but HOW DO I MAKE BOT WORK PUNY HUMAN
 Slow down there, rambo. It won't be too long, but have a bit of patience, please. After installing Eris in your directory, paste the following into your `app.js` file:
 ```javascript
-const config = require("config.json");
+const config = require("./config.json");
 var bot = new Eris(config.token);
 bot.on("ready", () => {
     console.log("Ready!");
